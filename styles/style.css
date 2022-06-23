@@ -368,10 +368,6 @@
 }
 
 
-.kaufman__table_text_theme_dark_space {
-  margin-bottom: 20xp;
-}
-
 .kaufman__block_theme_dark_on-top {
   z-index: 2;
 }
@@ -393,7 +389,7 @@
 }
 
 .footer__column_content_copyright {
-  flex-basis: 711px;;
+  flex-basis: 711px;
 }
 .footer__column_content_info {
   display: flex;
