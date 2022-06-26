@@ -38,32 +38,19 @@
 }
 
 .header__title {
-  display: flex;
   max-width: 730px;
-}
-
-.header__title_place {
-  position: absolute;
-  align-self: center;
-  left: 64px;
-}
-
-.header__title_text {
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  align-self: center;
+  margin: 0 0 0 64px;
 }
+
 
 .header__subtitle {
   max-width: 388px;
-}
-
-.header__subtitle_text {
   line-height: 25px;
   font-size: 18px;
-}
-
-.header__subtitle_place {
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -79,9 +66,6 @@
   width: 765px;
   height: 608px;
   background-image: url(../images/two_again.png);
-}
-
-.header__main-illustration_place {
   position: absolute;
   right: 0px;
   bottom: 0px;
@@ -92,26 +76,25 @@
 }
 
 .description {
-  margin: auto;
-  padding-top: 100px;
   display: flex;
-  width: 80%;
+  justify-content: center;
+  margin-top: 100px;
 }
 
-.description__two-columns {
+.two-columns {
   display: flex;
   justify-content: space-between;
+  width: 80%;
 }
 
 .two-columns__brief {
   display: flex;
   max-width: 175px;
-}
-.two-columns__brief_text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -121,32 +104,26 @@
   padding: 0;
 }
 
-.main-text__paragraph {
+.two-columns_paragraph {
   display: flex;
-}
-
-.main-text__paragraph_text {
   line-height: 34px;
   font-size: 24px;
-}
-
-.main-text__paragraph_space {
   margin: 0;
   margin-bottom: 30px;
 }
 
-.main-text__paragraph:last-child {
+.two_columns__paragraph:last-child {
   margin-bottom: 0;
 }
 
-.main-text__span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
 }
 
 .digits {
-  padding: 100px 0;
+  margin: 100px 0;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -155,9 +132,6 @@
 
 .section-title {
   max-width: 60%;
-}
-
-.digits__section-title_text {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -167,16 +141,12 @@
 
 .section-subtitle {
   max-width: 60%;
-}
-
-.digits__section-subtitle_text {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0;
   text-align: center;
 }
-
 .table {
   width: 1100px;
   display: flex;
@@ -190,27 +160,27 @@
 }
 
 .table__cell {
-  flex-direction: column;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
+
 .digits__cell_properties {
-  max-width: 250px;
+  width: 250px;
   margin: 60px 0 0;
 }
-.digits__table_heading {
+.table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-.digits__table_text {
+.table__text {
   line-height: 1.2;
   font-size: 18px;
 }
-
-.digits__table_text_space {
-  margin: 20px 0 0;
+.table__text_space {
+  margin-top: 20px;
 }
 
 .feynman {
@@ -282,26 +252,15 @@
   background-color: #1f1f1f;
 }
 
-.kaufman__section-title_theme_dark {
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
+.section-title__theme_dark {
   color: white;
-  margin-top: 90px;
-  margin-bottom: 20px;
 }
 
-.kaufman__section-subtitle_theme_dark {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
+.section-subtitle__theme_dark {
   color: white;
-  margin: 0;
 }
 
-.table_theme_dark {
+.table__theme_dark {
   margin: 0 0 90px 0;
   padding: 0;
 }
@@ -311,29 +270,22 @@
 }
 
 .table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
   margin: 80px 0 20px 0;
   color: white;
 }
 
 .table__text_theme_dark {
-  line-height: 1.2;
-  font-size: 18px;
   color: white;
   margin: 0;
 }
 
 .kaufman__triangle  {
-  min-height: 877px;
-  width: 877px;
-}
-
-.kaufman__triangle_space {
   position: absolute;
   top: 0;
   right: -210px;
+  background-image: url(../images/kaufman-triangle.svg);
+  height: 877px;
+  width: 877px;
 }
 
 .footer {
@@ -400,6 +352,9 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__column-link_space {
@@ -414,16 +369,16 @@
 }
 
 .footer__social-icon_facebook {
-  background: url(../images/facebook_color_white.svg) no-repeat 0 7px;
+  background: url(../images/facebook_color_white.svg) no-repeat 0 0;
   padding-left: 26px;
 }
 
 .footer__social-icon_vk {
-  background: url(../images/vk_color_white.svg) no-repeat 0 7px;
+  background: url(../images/vk_color_white.svg) no-repeat 0 0;
   padding-left: 26px;
 }
 
 .footer__social-icon_inst {
-  background: url(../images/instagram_color_white.svg) no-repeat 0 7px;
+  background: url(../images/instagram_color_white.svg) no-repeat 0 0;
   padding-left: 26px;
 }
