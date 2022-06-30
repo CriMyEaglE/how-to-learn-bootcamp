@@ -509,3 +509,30 @@
   font-size: 30px;
   font-weight: normal;
 }
+
+.resources {
+  outline: 1px solid red;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.resources__logo-zone {
+  outline: 1px solid red;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0 217px;
+}
+
+.resources__link {
+  display: flex;
+  justify-content: center;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
