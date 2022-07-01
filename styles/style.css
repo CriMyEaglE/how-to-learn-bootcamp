@@ -1,10 +1,4 @@
-.digits {
-  margin: 100px 0;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+
 
 .section-title {
   max-width: 60%;
@@ -30,10 +24,7 @@
   justify-content: space-between;
 }
 
-.digits__table_properties {
-  margin: 0 auto;
-  padding: 0;
-}
+
 
 .table__cell {
   display: flex;
@@ -41,10 +32,7 @@
   flex-wrap: wrap;
 }
 
-.digits__cell_properties {
-  width: 250px;
-  margin: 60px 0 0;
-}
+
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
