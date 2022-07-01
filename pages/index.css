@@ -57,11 +57,11 @@
 @import url(../blocks/table/__heading/_theme/table__heading_theme_dark.css);
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
-@import url(../blocks/table/__text/_space/table__text_space.css);
+@import url(../blocks/table/__text/table__text_space.css);
 
 @import url(../blocks/digits/digits.css);
-@import url(../blocks/digits/__table/_properties/digits__table_properties.css);
-@import url(../blocks/digits/__cell/_properties/digits__cell_properties.css);
+@import url(../blocks/digits/__cell/digits__cell.css);
+@import url(../blocks/digits/__table/digits__table_properties.css);
 
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__author/khan__author.css);
