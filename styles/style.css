@@ -10,6 +10,7 @@
   max-height: 756px;
   position: relative;
   display: flex;
+  overflow: hidden;
   background-color: #f2f2f2;
 }
 
@@ -59,6 +60,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  opacity: .5;
+  transition: .5s;
 }
 
 .header__main-illustration {
@@ -234,6 +240,11 @@
   font-size: 36px;
 }
 
+.feynman__link:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
 .feynman__background-image {
   width: 867px;
   min-height: 637px;
@@ -280,6 +291,7 @@
 .kaufman__triangle  {
   background-image: url(../images/kaufman-triangle.svg);
   position: absolute;
+  background-size: 877px 877px;
   height: 877px;
   width: 877px;
   right: -210px;
@@ -364,6 +376,12 @@
   color: white;
   text-decoration: none;
 }
+
+.footer__column-link:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
 .footer__social-icon_space {
   padding-right: 10px;
 }
@@ -425,10 +443,13 @@
   flex-direction: column;
   flex-wrap: wrap;
   margin-top: 100px;
+  position: relative;
+  min-height: 430px;
 }
 
 .video__iframes {
-  margin-top: 50px;
+  position: absolute;
+  top: 173px;
 }
 
 .video__iframe {
@@ -515,6 +536,11 @@
   font-weight: normal;
 }
 
+.khan__buy-link:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
 .resources {
   display: flex;
   align-items: center;
@@ -535,7 +561,29 @@
   justify-content: center;
 }
 
+.resources__link:hover {
+  opacity: .5;
+  transition: .5s;
+}
+
 .resources__logo {
   width: 270px;
   height: 38px;
+}
+
+@keyframes rotation {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.header__square-pic_rotation {
+  animation: rotation 20s linear infinite;
+}
+
+.kaufman__triangle_rotation {
+  animation: rotation 20s linear infinite;
 }
