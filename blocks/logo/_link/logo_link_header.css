@@ -1,0 +1,8 @@
+.logo_link_header {
+  transition: opacity .5s linear;
+}
+
+.logo_link_header:hover {
+  opacity: .5;
+  transition: .5s;
+}
