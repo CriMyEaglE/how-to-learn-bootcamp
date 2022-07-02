@@ -11,4 +11,6 @@
   background-position-x: left;
   background-position-y: bottom;
   background-size: 867px, 637px;
+  box-sizing: border-box;
+  padding-top: 100px;
 }
