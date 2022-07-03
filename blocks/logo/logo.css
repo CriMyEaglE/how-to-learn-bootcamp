@@ -2,4 +2,9 @@
   min-height: 32px;
   width: 228px;
   z-index: 2;
+  transition: opacity .5s linear;
+}
+
+.logo:hover {
+  opacity: .5;
 }
